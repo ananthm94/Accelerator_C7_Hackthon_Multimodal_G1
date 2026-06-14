@@ -16,7 +16,6 @@ from __future__ import annotations
 
 from textwrap import dedent
 
-
 # --------------------------------------------------------------------------- #
 # Shared scaffolding                                                          #
 # --------------------------------------------------------------------------- #
@@ -77,6 +76,9 @@ def market_research_system() -> str:
           - Opportunities and threats
 
         Cite sources by URL when you use web results. Do not fabricate URLs.
+        Competitor names, competitor URLs, and citations must come from the
+        provided search results. If evidence is missing, leave that item out
+        or state the uncertainty in opportunities/threats.
 
         {JSON_OUTPUT_RULE}
         """
